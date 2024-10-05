@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: "customer-service"
+
+  datasource:
+    url: jdbc:h2:mem:customers
+
+  cloud:
+    discovery:
+      enabled: true
